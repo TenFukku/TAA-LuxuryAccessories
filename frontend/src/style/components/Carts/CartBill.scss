@@ -1,0 +1,68 @@
+.cart__bill {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  width: 99%;
+  padding: 0 12px 12px 12px;
+}
+
+.cart__bill .cart__bill__header {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+
+.cart__bill .cart__bill__line {
+  height: 1px;
+  display: flex;
+  width: 98%;
+  background-color: #d7c1c19c;
+}
+
+.cart__bill__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart__bill__body .cart__bill__money__temporary,
+.cart__bill__body .cart__bill__discount {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+}
+
+.cart__bill__footer .cart__bill__total__money {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.cart__bill__total__money .money__total__value {
+  color: #d80027;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.cart__bill__footer .cart__bill__note {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  justify-content: end;
+}
+
+.cart__bill__footer .cart__bill__order {
+  display: flex;
+  justify-content: end;
+  padding-top: 1rem;
+}
+.cart__bill__footer .button__order,
+.cart__bill__footer .button__order:hover,
+.cart__bill__footer .button__order:active {
+  color: var(--M3-sys-light-on-primary, #f1efe7);
+  background: var(--M3-sys-light-primary, #785b5b);
+  border: 1px solid var(--M3-sys-light-primary, #785b5b);
+}

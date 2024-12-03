@@ -1,0 +1,44 @@
+section.preview_product_section {
+  .carousel-indicators {
+    display: none;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 5%;
+  }
+
+  .slick-slider .slick-list {
+    height: 500px;
+
+    .slick-slide {
+      margin-right: 0.75rem;
+    }
+
+    .slick-slide:last-child {
+      margin-right: 0;
+    }
+  }
+  .custom-prev-arrow,
+  .custom-next-arrow {
+    position: absolute;
+    top: 44%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .custom-prev-arrow {
+    left: 10px;
+  }
+
+  .custom-next-arrow {
+    right: 10px;
+  }
+
+  // .title_section {
+  //   background-image: url('../../../assets/image/text/background.png');
+  //   background-size: cover;
+  //   padding: 3px;
+  // }
+}

@@ -1,0 +1,97 @@
+.main_nav{
+    // margin-top: 20px;
+    z-index: 2;
+}
+
+.my-nav{
+    // color: #F1EFE7;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.my-nav .nav-link:hover {
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+
+.main_nav .nav_container{
+    height: 45px;
+    
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+   color: var(--bs-nav-link-color);
+}
+.my-nav .nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+}
+
+.my-nav .nav-link a {
+    // font-size: 16px;
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: var(--bs-nav-link-color);
+    // padding: 12px 0px; 
+    // margin-right: 12px;
+
+    // display: flex-inline,
+    // display: inline-flex;
+    // justify-content: center;
+    // align-items: center;
+    // min-width: 8rem ;
+    // max-width: 10rem;
+    // width: 100%;
+    // min-height: 48px;
+    // padding: 0 2rem;
+}
+
+.my-nav .nav-link a:active{
+    color: #9c4048;
+    background-color: rgba($color: #000000, $alpha: 0.0);
+}
+
+.my-nav.navbar-nav > .nav-link.active{
+    color: white;
+    background-color: var(--md-sys-color-primary-light);
+    
+    a.dropdown-toggle{
+        color: white;
+    }
+    
+    a.dropdown-toggle:hover{
+        background-color: rgba($color: #000000, $alpha: 0.0);
+    }
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #CCCCCC;
+}
+.dropdown-menu .dropdown-item:active {
+    color: #9c4048;
+}
+
+.dropdown-toggle.nav-link{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .main_nav{
+        display: none;
+    }
+}

@@ -1,0 +1,171 @@
+.about__title {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 32px;
+}
+
+.about__intro {
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+
+.about__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__logo img {
+  width: 75%;
+}
+
+.about__information {
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__information p {
+  margin: 0;
+}
+
+.about__banner img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.about__subtitle {
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.about__content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about__content-left p {
+  margin: 0;
+}
+
+.about__content-right {
+  display: flex;
+  text-align: justify;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__content-right p {
+  margin: 0;
+}
+
+.about__contact {
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+.about__contact p {
+  margin: 0;
+}
+
+.about__contact-title {
+  text-align: center;
+}
+
+.about__contact-list ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.about__contact-list {
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.about__contact-list li {
+  font-weight: bold;
+}
+
+.about__contact-list a {
+  text-decoration: none;
+  color: black;
+  // font-size: 16px;
+  font-weight: normal;
+}
+
+.about__contact-list a:hover {
+  color: #9c4048;
+}
+
+.about__banner-small img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: calc(577px)) and (max-width: 768px) {
+  .about__title {
+    font-size: 36px;
+  }
+
+  .about__information {
+    font-size: 16px;
+  }
+
+  .about__content-left {
+    font-size: 36px;
+  }
+
+  .about__content-right {
+    font-size: 16px;
+  }
+
+  .about__contact-title {
+    font-size: 36px;
+  }
+
+  .about__contact-list {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .about__title {
+    font-size: 28px;
+  }
+
+  .about__information {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__content-left {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about__content-right {
+    font-size: 16px;
+  }
+
+  .about__contact-title {
+    font-size: 28px;
+  }
+
+  .about__contact-list {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .about__contact {
+    display: flex;
+    flex-direction: column;
+  }
+}

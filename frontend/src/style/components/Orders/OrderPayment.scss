@@ -1,0 +1,33 @@
+.order-payment {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  gap: 40px;
+  padding: 40px;
+  flex-direction: column;
+  .order-payment-status {
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+  }
+//   .order-payment-content {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 12px;
+//     justify-content: center;
+//     .order-payment-content-info {
+//       display: flex;
+//       align-items: center;
+//     }
+//     .order-payment-content-value {
+//     }
+//   }
+  .order-payment-btn {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}

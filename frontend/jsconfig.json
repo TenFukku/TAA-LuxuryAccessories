@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl" : "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
+      "@utils/*": ["utils/*"],
+      "@styles/*": ["styles/*"],
+      "@assets/*": ["assets/*"],
+      "@services/*": ["services/*"],
+      "@constants/*": ["constants/*"],
+      "@hooks/*": ["hooks/*"],
+      "@context/*": ["context/*"],
+      "@types/*": ["types/*"]
+    }
+  },
+  "include": ["src", "src/components/HeaderComponents/AuthPart.jsx"],
+  "exclude": ["node_modules"]
+}

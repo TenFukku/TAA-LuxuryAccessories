@@ -1,0 +1,190 @@
+.HomePage{
+    font-size: 18px;
+    margin-top: 60px;
+
+    h1.title_section{
+        color: #40000A;
+        font-size: 53px;
+        font-family: Playfair Display;
+        font-weight: 700;
+        line-height: 64px;
+        word-wrap: break-word;
+        margin-bottom: 35px;
+    }
+}
+.infoSec{
+    h1{
+        margin-bottom: 35px;
+    }
+}
+
+.qa_list .list-group-item{
+    padding-left: 0px;
+}
+
+.info_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    // height: 80px; 
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    
+    .card-title.h5{
+        font-size: 2rem;
+    }
+}
+
+.saleSecCotainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    // background-color: #f5f5f5;
+
+    border-radius: 10px;
+    // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+
+    div{
+        min-height: 80px;
+        /* max-height: 120px; */
+    }
+}
+
+.carousel_container{
+
+    .carousel-inner{
+        border-radius: 10px;
+
+    }
+}
+
+section{
+    margin: 5rem 0px;
+
+    & .qa_list h1,h3 {
+        text-align: start;
+    }
+}
+
+
+
+section h1 {
+    text-align: center;
+
+}
+
+section .qaCard.card{
+    letter-spacing: .4rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: var(--md-ref-palette-neutral-variant100);
+    background-color: var(--md-sys-color-primary-light);
+
+    
+    & .card-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & .card-title.h5{
+            font-size: 3em;
+        }
+        
+    }
+}
+
+.info_containter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media (max-width: 800px){
+
+    .saleSecCotainer{
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0px;
+
+
+    }
+
+    .saleSecCotainer div{
+        width: 95%;
+    }
+    
+}
+
+@media (min-width: 431px) and (max-width: 800px) {
+    .info_containter{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 2fr 2fr;
+        
+        .info_item{
+            display: flex;
+            flex-direction: row;
+            justify-self: center;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        
+    }
+    
+}
+
+.quest_container{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media (max-width: 978px) {
+    .quest_container{
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center;
+        gap: 1rem;
+    }
+    .qaCard.card {
+       height: 350px !important;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .quest_container{
+
+        .col-lg-6.col-sm-12{
+            width: 100% !important;
+        }
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .info_containter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

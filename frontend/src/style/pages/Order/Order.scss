@@ -1,0 +1,30 @@
+.order__content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0;
+}
+
+.order__content__bill {
+  padding-right: 0;
+}
+
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .order__content {
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .order__content {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .order__content {
+    gap: 1rem;
+  }
+}

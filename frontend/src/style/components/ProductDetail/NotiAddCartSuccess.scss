@@ -1,0 +1,28 @@
+.modal-noti-add-cart-success {
+  background-color: var(--m-3-sys-light-primary, #785b5b);
+  // border: 1px solid var(--m-3-sys-light-primary, #785b5b);
+  border: none;
+
+  &-body {
+    color: white;
+    height: 200px;
+    text-align: center;
+    background-color: var(--m-3-sys-light-primary, #785b5b);
+    border: none;
+    // border: 1px solid var(--m-3-sys-light-primary, #785b5b);
+  }
+}
+
+.go-check-circle-fill {
+  color: white;
+  width: 70px;
+  height: 70px;
+}
+
+.modal-noti-add-cart-success-body {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

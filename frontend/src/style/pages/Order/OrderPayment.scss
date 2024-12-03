@@ -1,0 +1,29 @@
+.order-payment-QR-method{
+    padding: 0 12px 0 0;
+}
+.order-payment-QR{
+    padding: 0;
+}
+.order-payment-bill{
+    display: flex;
+    flex-direction: column;
+    padding-left: 22px;
+    gap: 12px;
+}
+@media only screen and (max-width: 992px) {
+    .order-payment{
+        gap: 12px;
+    }
+    .order-payment-QR-method{
+        padding: 0;
+    }
+    .order-payment-QR{
+        padding: 0;
+    }
+    .container-fluid .row .order-payment-bill{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        gap: 12px;
+    }
+  }

@@ -1,0 +1,247 @@
+.modal-review {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  // border-radius: 12px;
+  font-family: Roboto;
+  font-size: 16px;
+  position: relative;
+}
+
+.modal__content__review {
+  width: 130%;
+  background-color: #f1efe7;
+}
+
+// .modal__title {
+//   font-size: 30px;
+//   text-align: center;
+//   font-weight: 600;
+//   margin-left: 170px;
+// }
+// .modal-body {
+//   display: flex;
+//   gap: 12px;
+//   flex-direction: column;
+// }
+
+.modal__product {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+  gap: 12px;
+  font-weight: 600;
+}
+
+.modal__product img {
+  border-radius: 4px;
+}
+
+.modal__quality,
+.modal__service {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  justify-content: center;
+}
+
+.modal__quality > span,
+.modal__service > span {
+  width: 160px;
+}
+
+.modal__product--cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.modal__product img {
+  width: 74px;
+  height: 74px;
+}
+
+.modal__form-review {
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  height: 362px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal__form-review-textarea {
+  resize: none;
+  width: 100%;
+  height: 273px;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.modal__form-review-border input {
+  border: none;
+  background-color: transparent;
+}
+
+.modal__form-review-border {
+  width: 100%;
+}
+
+.star-icon,
+.star-icon-service {
+  color: #ffdd55;
+  cursor: pointer;
+  font-size: 28px;
+  margin-left: 8px;
+}
+
+.star-icon:hover,
+.star-icon.active {
+  color: #ffdd55;
+  font-variation-settings: 'FILL' 1;
+}
+
+.star-icon-service:hover,
+.star-icon-service.active {
+  color: #ffdd55;
+  font-variation-settings: 'FILL' 1;
+}
+
+.energy-review {
+  width: 100%;
+  text-align: end;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+input#checkbox1 {
+  width: 24px;
+  height: 24px;
+  accent-color: var(--md-sys-color-primary);
+}
+
+.modal__checkbox-form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.modal__checkbox-form div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.modal__view-name-account {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.modal__check-name-account {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.review-start {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.btn_round_32px {
+  display: flex;
+  height: 32px;
+  padding: 6px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  border: 1px solid var(--M3-sys-light-outline, #857373);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--M3-sys-light-on-surface-variant, #524343);
+}
+
+.btn_round_8px {
+  display: flex;
+  height: 48px;
+  padding: 6px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 1px solid var(--M3-sys-light-outline, #857373);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--M3-sys-light-on-surface-variant, #524343);
+}
+
+.btn_bold {
+  background-color: #785b5b;
+  color: white;
+  &:hover {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3), 0px 4px 0.75rem 3px rgba(0, 0, 0, 0.15);
+    background-color: #785b5b;
+    color: white;
+    border-color: transparent;
+  }
+}
+
+.btn_light {
+  color: #785b5b;
+  background-color: white;
+  &:hover {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3), 0px 4px 0.75rem 3px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    color: #785b5b;
+    border-color: transparent;
+  }
+}
+
+.btn__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn__wrapper button {
+  width: 49%;
+}
+
+.modal__form-review-border label {
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.modal-review__close__btn {
+  color: #aaaaaa;
+  width: 100%;
+  background: transparent;
+  border: transparent;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.btn_review_backto:active,
+.btn_review_done:active {
+  background-color: white !important;
+  color: #524343 !important;
+  border-color: #524343 !important;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3), 0px 4px 0.75rem 3px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,26 @@
+.product__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product__pagination .page-item {
+  width: 35px;
+}
+.product__pagination .page-item.active .page-link {
+  background-color: #785b5b;
+  border-color: #785b5b;
+  color: var(--M3-sys-light-on-primary, #f1efe7);
+}
+
+.product__pagination .page-link {
+  color: black;
+  text-align: center;
+  /* M3/title/medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.15px;
+}

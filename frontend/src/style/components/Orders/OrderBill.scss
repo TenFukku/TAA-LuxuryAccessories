@@ -1,0 +1,106 @@
+.order__bill {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 12px;
+  gap: 1rem;
+  border-radius: 12px;
+}
+
+.order__bill .order__bill__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order__bill .order__bill__line {
+  height: 1px;
+  display: flex;
+  width: 98%;
+  background-color: #d7c1c19c;
+}
+
+.order__bill .order__item__product {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.order__item__product img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.order__item__product .order__item__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+}
+
+.order__item__product .order__product__number__price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.order__item__product.hidden {
+  display: none;
+}
+.order__bill .order__bill__see {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  & .toggle-text-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  & p {
+    margin: 0;
+    cursor: pointer;
+  }
+}
+
+.order__bill .order__bill__money__temporary,
+.order__bill .order__bill__money__ship,
+.order__bill .order__bill__total__money {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order__bill__total__money .money__total__value {
+  color: #d80027;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.order__bill .order__bill__button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .order__content__bill {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .order__content__bill {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .order__content__bill {
+    padding-left: 0;
+  }
+}

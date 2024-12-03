@@ -1,0 +1,16 @@
+.login_btn, .register_btn {
+    white-space: nowrap;
+}
+
+.cart-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 8px;
+    color: #000000;
+  }
+  .number_cart {
+    position: absolute;
+    top: 8px;
+    background-color: var(--md-source) !important;
+  }

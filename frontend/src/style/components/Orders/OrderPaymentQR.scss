@@ -1,0 +1,41 @@
+.order-payment-qr {
+  background-color: white;
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+  .total-payment-value {
+    color: #d80027;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 68px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .order-payment-body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 12px;
+    .qr-img{
+      max-width: 320px;
+      max-height: 320px;
+      margin: 0 auto;
+      img{
+        width: 100%;
+        height: auto;
+        display: flex;
+      }
+    }
+    .payment-guide {
+      margin: 42px 0 0 8px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      .payment-guide-content {
+        display: flex;
+        gap: 8px;
+      }
+    }
+  }
+}

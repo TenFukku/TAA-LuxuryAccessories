@@ -1,0 +1,31 @@
+.delivery__method {
+  display: flex;
+  background-color: white;
+  border-radius: 12px;
+  flex-direction: column;
+  // width: 99%;
+  padding: 1rem;
+}
+
+.delivery__method .delivery__method__title {
+  display: flex;
+  height: 64px;
+  align-items: center;
+}
+
+.delivery__method .delivery__method__one,
+.delivery__method .delivery__method__two {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 12px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.delivery__method .radio__check {
+  font-size: 24px;
+}
+.delivery__method .icon__radio {
+  font-size: 24px;
+}
