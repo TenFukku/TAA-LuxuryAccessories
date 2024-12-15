@@ -12,7 +12,7 @@ This is the final project for the IE104 - Web Technology course by students from
 2. **Navigate to the backend folder:**
    Open a terminal and move to the backend directory:
    ```bash
-   cd UIT_IE213_Project_TAA/backend/
+   cd TAA-LuxuryAccessories/backend/
 
 3. **Install dependencies and start the backend server:**
    Run the following commands to install the required libraries and start the backend server:
@@ -22,7 +22,7 @@ This is the final project for the IE104 - Web Technology course by students from
 4. **Navigate to the frontend folder:**
    Open another terminal and move to the frontend directory:
    ```bash
-   cd UIT_IE213_Project_TAA/frontend/
+   cd TAA-LuxuryAccessories/frontend/
 
 5. **Install dependencies and start the frontend server:**
    Run the following commands to install the required libraries and start the frontend server:
